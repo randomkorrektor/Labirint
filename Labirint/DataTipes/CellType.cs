@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace DataTypes
 {
-    public class Labyrinth
+    public enum CellType
     {
-        public CellType[,] grid;
+        Floor,
+        Wall,
+        Exit
     }
 }
