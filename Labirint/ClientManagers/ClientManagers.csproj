@@ -43,6 +43,12 @@
     <Compile Include="LabyrinthManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataTipes\DataTipes.csproj">
+      <Project>{a2af10b5-07d4-472c-ae77-a3b7402b5711}</Project>
+      <Name>DataTipes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
