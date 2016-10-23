@@ -4,15 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTipes
+namespace DataTypes
 {
-    public class Labirint
+    public class Labyrinth
     {
         public bool[,] grid;
-
-        public bool GetPoint(int x, int y)
-        {
-            return grid[x, y];
-        }
     }
 }

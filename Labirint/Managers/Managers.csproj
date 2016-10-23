@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AEC05B95-22B1-475B-91B5-FA4C0CB0CA2A}</ProjectGuid>
+    <ProjectGuid>{E9A68652-5FE2-4D9B-9BC3-D03F86947598}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClientManagers</RootNamespace>
-    <AssemblyName>ClientManagers</AssemblyName>
+    <RootNamespace>Managers</RootNamespace>
+    <AssemblyName>Managers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -46,7 +46,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DataTipes\DataTypes.csproj">
       <Project>{a2af10b5-07d4-472c-ae77-a3b7402b5711}</Project>
-      <Name>DataTipes</Name>
+      <Name>DataTypes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

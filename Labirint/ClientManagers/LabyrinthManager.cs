@@ -32,7 +32,7 @@ namespace ClientManagers
                 for (int j = 0; j < 3; j++)
                 {
                     if (cells[i,j]) {
-                        queue.Enqueue(new Step(step, new Position() { X = i, Y = j });
+                        queue.Enqueue(new Step(step, new Position() { X = i, Y = j }));
                     }
                 }
             }
